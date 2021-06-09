@@ -93,6 +93,9 @@
     margin-bottom: 2px;
     white-space: nowrap;
   }
+  .field.wrap {
+    flex-wrap: wrap;
+  }
   .field svg {
     margin: 0 8px;
     fill: #959da5;
@@ -108,6 +111,7 @@
 /* Displays */
   .row {
     display: flex;
+    flex-wrap: wrap;
   }
   .row section {
     flex: 1 1 0;
@@ -230,6 +234,9 @@
   }
   .followup.legend svg:last-child {
     margin-right: 0;
+  }
+  .followup-title{
+    white-space: initial;
   }
 
 /* Labels */
@@ -1015,6 +1022,7 @@
     border-radius: 16px;
     font-size: 10px;
     padding: 0 5px;
+    white-space: nowrap;
   }
   .achievement .gauge-base, .achievement .gauge-arc {
     stroke-width: 6;
@@ -1186,7 +1194,7 @@
                         <div class="field ">
             
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/></svg>
-              Joined GitHub 7 months ago
+              Joined GitHub 8 months ago
             
           </div>
                         <div class="field">
@@ -1341,9 +1349,11 @@
             </section>
             <section>
                 <h2 class="field">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/></svg>
-      Overall issues and pull requests status
-    </h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/>
+                    </svg>
+                    <span class="followup-title">Overall issues and pull requests status</span>
+                </h2>
             </section>
             <div class="column largeable">
                 <h3>
@@ -2179,7 +2189,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated Wed, 09 Jun 2021 22:19:58  with lowlighter/metrics@3.11.0-beta</span>
+                <span>Last updated Wed, 09 Jun 2021 23:20:28  with lowlighter/metrics@3.11.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
