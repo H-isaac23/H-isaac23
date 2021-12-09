@@ -960,7 +960,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>orbitdb/orbit-db</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Peer-to-Peer Databases for the Decentralized Web</div>
@@ -1013,7 +1013,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>finom/use-change</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">An application-wide alternative for React.useState</div>
@@ -1110,7 +1110,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 9 Dec 2021, 03:19:47  with lowlighter/metrics@3.17.0-beta</span>
+                <span>Last updated 9 Dec 2021, 04:25:59  with lowlighter/metrics@3.17.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
